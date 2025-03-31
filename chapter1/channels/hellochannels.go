@@ -16,6 +16,7 @@ func printer(ch chan int) {
 
 // main is the entry point for the program.
 //adding new comments
+//slashing the comments
 func main() {
 	c := make(chan int)
 	go printer(c)
